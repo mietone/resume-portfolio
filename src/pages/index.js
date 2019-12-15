@@ -17,66 +17,58 @@ const IndexPage = () => (
     <div id="main">
       <header className="major container medium">
         <h2>
-          We conduct experiments that
+          
+          I love creating productivity
           <br />
-          may or may not seriously
-          <br />
-          break the universe
+           in people's lives
         </h2>
       </header>
 
       <div className="box alt container">
         <section className="feature left">
-          <a href="/#" className="image icon fa-signal">
+          <a href="https://github.com/mietone/fosterapp-frontend"  target="_blank" rel="noopener noreferrer" className="image icon fa-signal">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h3>The First Thing</h3>
+            <h3>Foster App (React / Redux)</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+            Online platform where users can log information about foster animals needing adoption.
             </p>
           </div>
         </section>
         <section className="feature right">
-          <a href="/#" className="image icon fa-code">
+          <a href="https://github.com/mietone/FosterApp" target="_blank" rel="noopener noreferrer" className="image icon fa-code">
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h3>The Second Thing</h3>
+            <h3>Foster App (Ruby on Rails)</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+            Online platform where users can log information about foster animals needing adoption.
             </p>
           </div>
         </section>
         <section className="feature left">
-          <a href="/#" className="image icon fa-mobile">
+          <a href="https://github.com/mietone/music-magazine-log" target="_blank" rel="noopener noreferrer" className="image icon fa-mobile">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h3>The Third Thing</h3>
+            <h3>music-magazine-log</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+            A Content Management System to track and log magazine collections with images.
             </p>
           </div>
         </section>
       </div>
 
       <footer className="major container medium">
-        <h3>Get shady with this starter</h3>
+        <h3>Go to my resume</h3>
         <p>
-          There is also elements page in this template. Click below button to
-          check
+          Click above to load my resume. Click below to download my pdf resume.
         </p>
         <ul className="actions special">
           <li>
             <Link to="/Elements" className="button">
-              View Elements
+              Resume
             </Link>
           </li>
         </ul>

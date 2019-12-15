@@ -7,164 +7,114 @@ const IndexPage = () => (
     <div id="main">
       <div className="box container">
         <header>
-          <h2>A lot of generic stuff</h2>
+          <h2>Miwa Hirano</h2>
         </header>
         <section>
           <header>
-            <h3>Paragraph</h3>
-            <p>This is the subtitle for this particular heading</p>
+            <p>Front End Developer</p>
           </header>
-          <p>
-            Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup>{' '}
-            ac orci. Pellentesque habitant <strong>strong</strong> tristique{' '}
-            <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac
-            turpis egestas. Morbi leo suscipit ut. Praesent{' '}
-            <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-            amet risus elit.
-          </p>
         </section>
         <section>
           <header>
-            <h3>Blockquote</h3>
-          </header>
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
-            faucibus.
-          </blockquote>
-        </section>
-        <section>
-          <header>
-            <h3>Divider</h3>
-          </header>
-          <p>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel. Praesent nec orci facilisis leo magna. Cras sit
-            amet urna eros, id egestas urna. Quisque aliquam tempus euismod.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia.
-          </p>
           <hr />
-          <p>
-            Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-            enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend
-            nisi ornare vel. Praesent nec orci facilisis leo magna. Cras sit
-            amet urna eros, id egestas urna. Quisque aliquam tempus euismod.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia.
-          </p>
+          424.362.6359 | <a href = "mailto: devkoneko@gmail.com">devkoneko@gmail.com</a> | Los Angeles, CA
+          <br />
+          <hr />
+          </header>
+   
         </section>
         <section>
           <header>
-            <h3>Unordered List</h3>
+            <h3>TECHNICAL SKILLS</h3>
           </header>
           <ul className="default">
+            
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+            <b>Proficient:</b> JavaScript, ReactJS, Redux, Node.js, SQL, PostgreSQL, SQLite, Firebase, jQuery, HTML5, CSS3, Sass, RegEx, Git
             </li>
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+            <b>Proficient:</b> Ruby on Rails, Sinatra, Mocha, RSpec, Capybara.
             </li>
-            <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
-            </li>
-            <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
-            </li>
+         
           </ul>
         </section>
         <section>
           <header>
-            <h3>Ordered List</h3>
+            <h3>WORK EXPERIENCE</h3>
           </header>
-          <ol className="default">
+          <ul className="default">
+          <b>CombuterHelper | Front End Developer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Nov 2017 - Present </b><br />
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+              Constructed online platform utilizing JavaScript, HTML5, and CSS3 to support sales team in selling real-time ticker displays of sports betting odds, generating 3 major new contracts with sports bar after product launch.
             </li>
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+              Leveraged Xibo CMS to create layout for viewing fantasy sports scores and game data in ticker format for sports bars with facial recognition data showing 80% satisfaction.
             </li>
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+              Created 10 second animations for transitions between PSA commercials for displays in sports bars using Adobe After Effects, Illustrator and Photoshop.
             </li>
             <li>
-              Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis
-              enim, at viverra ligula. Ut porttitor sagittis lorem, quis
-              eleifend nisi ornare vel.
+              Integrated streaming advertisements into sports bar displays through leveraging Vast Technology system.
             </li>
-          </ol>
+          </ul>
+
+          <ul className="default">
+          <b>Beautiful Harmony Design | Motion Designer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Jan 2006 - Nov 2017 </b><br />
+            <li>
+              Designed and animated graphics for shows including Super Bowl Half-Time, Emmy’s, MTV Movie Awards, Microsoft, Ellen DeGeneres, Rock Honors, CBS Celine Dion, Dancing With The Stars, and Carnival Cruise.
+            </li>
+            <li>
+              Crafted concert graphics and animations for Foo Fighters, Cheetah Girls, Pussycat Dolls concert tours using Autodesk Maya, Adobe After Effects, Illustrator and Photoshop.
+
+            </li>
+            <li>
+            Led and managed up to 6 animators across 5 different projects for major TV show events and concerts.
+            </li>
+
+          </ul>
         </section>
         <section>
           <header>
-            <h3>Table</h3>
+            <h3>EDUCATION</h3>
           </header>
-          <div className="table-wrapper">
-            <table className="default">
-              <thead>
-                <tr>
-                  <th>ID</th>
-                  <th>Name</th>
-                  <th>Description</th>
-                  <th>Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>45815</td>
-                  <td>Something</td>
-                  <td>
-                    Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.
-                  </td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>24524</td>
-                  <td>Nothing</td>
-                  <td>
-                    Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.
-                  </td>
-                  <td>19.99</td>
-                </tr>
-                <tr>
-                  <td>45815</td>
-                  <td>Something</td>
-                  <td>
-                    Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.
-                  </td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>24524</td>
-                  <td>Nothing</td>
-                  <td>
-                    Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.
-                  </td>
-                  <td>19.99</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td colSpan="3"></td>
-                  <td>100.00</td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
+          <b>BFA Visual Communication </b> &nbsp;&nbsp;&nbsp; American InterContinental University<br />
+          <b>Graphic Design </b> &nbsp;&nbsp;&nbsp; California Institute of The Arts<br />
+          <br />
+        </section>
+        <section>
+          <header>
+            <h3>PROJECT WORK</h3>
+          </header>
+          <ul className="default">
+          <b>FosterApp | Web Developer | Github (front-end) | Github (back-end) <span style={{ color: 'red' }}></span>Oct 2019 </b><br />
+            <li>
+              Constructed online platform utilizing JavaScript, HTML5, and CSS3 to support sales team in selling real-time ticker displays of sports betting odds, generating 3 major new contracts with sports bar after product launch.
+            </li>
+            <li>
+              Leveraged Xibo CMS to create layout for viewing fantasy sports scores and game data in ticker format for sports bars with facial recognition data showing 80% satisfaction.
+            </li>
+            <li>
+              Created 10 second animations for transitions between PSA commercials for displays in sports bars using Adobe After Effects, Illustrator and Photoshop.
+            </li>
+            <li>
+              Integrated streaming advertisements into sports bar displays through leveraging Vast Technology system.
+            </li>
+          </ul>
+
+          <ul className="default">
+          <b>Beautiful Harmony Design | Motion Designer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Oct 2019 </b><br />
+            <li>
+              Designed and animated graphics for shows including Super Bowl Half-Time, Emmy’s, MTV Movie Awards, Microsoft, Ellen DeGeneres, Rock Honors, CBS Celine Dion, Dancing With The Stars, and Carnival Cruise.
+            </li>
+            <li>
+              Crafted concert graphics and animations for Foo Fighters, Cheetah Girls, Pussycat Dolls concert tours using Autodesk Maya, Adobe After Effects, Illustrator and Photoshop.
+
+            </li>
+            <li>
+            Led and managed up to 6 animators across 5 different projects for major TV show events and concerts.
+            </li>
+
+          </ul>
         </section>
         <section>
           <header>
@@ -191,7 +141,7 @@ const IndexPage = () => (
                   name="email"
                   id="email"
                   defaultValue=""
-                  placeholder="johndoe@domain.tld"
+                  placeholder="johndoe@domain.com"
                 />
               </div>
               <div className="col-12">
