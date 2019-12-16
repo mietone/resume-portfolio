@@ -39,6 +39,7 @@ const IndexPage = () => (
           </ul>
         </section>
         <section>
+          <hr />
           <header>
             <h3>WORK EXPERIENCE</h3>
           </header>
@@ -74,6 +75,7 @@ const IndexPage = () => (
           </ul>
         </section>
         <section>
+          <hr />
           <header>
             <h3>EDUCATION</h3>
           </header>
@@ -82,6 +84,7 @@ const IndexPage = () => (
           <br />
         </section>
         <section>
+          <hr />
           <header>
             <h3>PROJECT WORK</h3>
           </header>
@@ -130,8 +133,23 @@ const IndexPage = () => (
             Created front-end with Bootstrap and custom CSS.
             </li>
           </ul>
+
+          <ul className="default">
+          <b>coffee-roasters | Web Developer | Github | Download Gem  &nbsp;&nbsp;&nbsp; Jan 2018 </b><br />
+          A Ruby gem that provides CLI to retrieve coffee roasters info in LA.
+            <li>
+            Written with Object Oriented Ruby.
+            </li>
+            <li>
+            Scraped data from Thrillist website using Nokogiri. 
+            </li>
+            <li>
+            Published on RubyGems.org.
+            </li>
+          </ul>
         </section>
         <section>
+          <hr />
           <header>
             <h3>Form</h3>
           </header>
