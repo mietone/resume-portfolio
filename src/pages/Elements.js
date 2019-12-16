@@ -116,6 +116,20 @@ const IndexPage = () => (
             </li>
 
           </ul>
+
+          <ul className="default">
+          <b>music-magazine-log | Web Developer | Github  &nbsp;&nbsp;&nbsp; May 2018 </b><br />
+          A CMS to track and log magazine collections with images.
+            <li>
+            Built backend with Sinatra and optimized Rails with Rack middleware resulting in 20% speed gain.
+            </li>
+            <li>
+            Implemented authentication with bcrypt for password security.
+            </li>
+            <li>
+            Created front-end with Bootstrap and custom CSS.
+            </li>
+          </ul>
         </section>
         <section>
           <header>
