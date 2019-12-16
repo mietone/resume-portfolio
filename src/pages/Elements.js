@@ -86,7 +86,8 @@ const IndexPage = () => (
             <h3>PROJECT WORK</h3>
           </header>
           <ul className="default">
-          <b>FosterApp | Web Developer | Github (front-end) | Github (back-end) <span style={{ color: 'red' }}></span>Oct 2019 </b><br />
+          <b>FosterApp | Web Developer | Github (front-end) | Github (back-end) &nbsp;&nbsp;&nbsp; Oct 2019 </b><br />
+          Online platform where users can log information about foster animals needing adoption.
             <li>
               Constructed online platform utilizing JavaScript, HTML5, and CSS3 to support sales team in selling real-time ticker displays of sports betting odds, generating 3 major new contracts with sports bar after product launch.
             </li>
@@ -102,16 +103,16 @@ const IndexPage = () => (
           </ul>
 
           <ul className="default">
-          <b>Beautiful Harmony Design | Motion Designer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Oct 2019 </b><br />
+          <b>FosterApp | Web Developer | Github  &nbsp;&nbsp;&nbsp; Mar 2019 </b><br />
+          Online platform where users can log information about foster animals needing adoption.
             <li>
-              Designed and animated graphics for shows including Super Bowl Half-Time, Emmy’s, MTV Movie Awards, Microsoft, Ellen DeGeneres, Rock Honors, CBS Celine Dion, Dancing With The Stars, and Carnival Cruise.
+            Built with Ruby on Rails using MVC pattern and SQL database with ActiveRecord.
             </li>
             <li>
-              Crafted concert graphics and animations for Foo Fighters, Cheetah Girls, Pussycat Dolls concert tours using Autodesk Maya, Adobe After Effects, Illustrator and Photoshop.
-
+            Implemented OAuth authentication with Google and Facebook for -75% faster login.
             </li>
             <li>
-            Led and managed up to 6 animators across 5 different projects for major TV show events and concerts.
+            Created front-end with Bootstrap and custom CSS.
             </li>
 
           </ul>
