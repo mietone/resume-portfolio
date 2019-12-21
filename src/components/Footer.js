@@ -6,10 +6,8 @@ export default function Footer() {
     <div id="footer">
       <div className="container medium">
         <header className="major last">
-          <h2>Questions or comments?</h2>
+          <h2>Get in touch!</h2>
         </header>
-
-        <p>Life will feel it is always a great time to chat</p>
 
         <ContactForm />
 
@@ -27,7 +25,7 @@ export default function Footer() {
         </ul>
 
         <ul className="copyright">
-          <li>&copy; Directive. All rights reserved.</li>
+          <li>&copy; devkoneko. All rights reserved.</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>

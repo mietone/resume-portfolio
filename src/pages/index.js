@@ -58,6 +58,17 @@ const IndexPage = () => (
             </p>
           </div>
         </section>
+        <section className="feature right">
+          <a href="https://github.com/mietone/FosterApp" target="_blank" rel="noopener noreferrer" className="image icon fa-code">
+            <img src={pic2} alt="" />
+          </a>
+          <div className="content">
+            <h3>coffee-roasters</h3>
+            <p>
+            A Ruby gem that provides CLI to retrieve coffee roasters info in LA.
+            </p>
+          </div>
+        </section>
       </div>
 
       <footer className="major container medium">

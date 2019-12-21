@@ -1,7 +1,11 @@
 import React from 'react';
 export default function ContactForm() {
   return (
-    <form method="post" action="#">
+    <form 
+      name="contact"
+      method="post" 
+      data-netlify="true"
+      data-netlify-honeypot="bot-field">
       <div className="row">
         <div className="col-6 col-12-mobilep">
           <input type="text" name="name" placeholder="Name" />
