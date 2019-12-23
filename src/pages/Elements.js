@@ -44,7 +44,7 @@ const IndexPage = () => (
             <h3>WORK EXPERIENCE</h3>
           </header>
           <ul className="default">
-          <b>CombuterHelper | Front End Developer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Nov 2017 - Present </b><br />
+          <b>CombuterHelper | Front End Developer | Los Angeles, CA &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>Nov 2017 - Present </span></b><br />
             <li>
               Constructed online platform utilizing JavaScript, HTML5, and CSS3 to support sales team in selling real-time ticker displays of sports betting odds, generating 3 major new contracts with sports bar after product launch.
             </li>
@@ -60,7 +60,7 @@ const IndexPage = () => (
           </ul>
 
           <ul className="default">
-          <b>Beautiful Harmony Design | Motion Designer | Los Angeles, CA &nbsp;&nbsp;&nbsp; Jan 2006 - Nov 2017 </b><br />
+          <b>Beautiful Harmony Design | Motion Designer | Los Angeles, CA &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>Jan 2006 - Nov 2017</span> </b><br />
             <li>
               Designed and animated graphics for shows including Super Bowl Half-Time, Emmy’s, MTV Movie Awards, Microsoft, Ellen DeGeneres, Rock Honors, CBS Celine Dion, Dancing With The Stars, and Carnival Cruise.
             </li>
@@ -89,7 +89,7 @@ const IndexPage = () => (
             <h3>PROJECT WORK</h3>
           </header>
           <ul className="default">
-          <b>FosterApp | Web Developer | Github (front-end) | Github (back-end) &nbsp;&nbsp;&nbsp; Oct 2019 </b><br />
+          <b>FosterApp | Web Developer | Github (front-end) | Github (back-end) &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>Oct 2019</span>  </b><br />
           Online platform where users can log information about foster animals needing adoption.
             <li>
               Constructed online platform utilizing JavaScript, HTML5, and CSS3 to support sales team in selling real-time ticker displays of sports betting odds, generating 3 major new contracts with sports bar after product launch.
@@ -106,7 +106,7 @@ const IndexPage = () => (
           </ul>
 
           <ul className="default">
-          <b>FosterApp | Web Developer | Github  &nbsp;&nbsp;&nbsp; Mar 2019 </b><br />
+          <b>FosterApp | Web Developer | Github  &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>Mar 2019</span> </b><br />
           Online platform where users can log information about foster animals needing adoption.
             <li>
             Built with Ruby on Rails using MVC pattern and SQL database with ActiveRecord.
@@ -121,7 +121,7 @@ const IndexPage = () => (
           </ul>
 
           <ul className="default">
-          <b>music-magazine-log | Web Developer | Github  &nbsp;&nbsp;&nbsp; May 2018 </b><br />
+          <b>music-magazine-log | Web Developer | Github  &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>May 2018</span> </b><br />
           A CMS to track and log magazine collections with images.
             <li>
             Built backend with Sinatra and optimized Rails with Rack middleware resulting in 20% speed gain.
@@ -135,7 +135,7 @@ const IndexPage = () => (
           </ul>
 
           <ul className="default">
-          <b>coffee-roasters | Web Developer | Github | Download Gem  &nbsp;&nbsp;&nbsp; Jan 2018 </b><br />
+          <b>coffee-roasters | Web Developer | Github | Download Gem  &nbsp;&nbsp;&nbsp; <span style={{color: '#B08401'}}>Jan 2018</span> </b><br />
           A Ruby gem that provides CLI to retrieve coffee roasters info in LA.
             <li>
             Written with Object Oriented Ruby.

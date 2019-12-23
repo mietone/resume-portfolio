@@ -1140,20 +1140,21 @@ input[type='button'],
   }
 
   .logo {
-    background: _palette(accent1, bg);
+    background-image: url('../images/LinkedIn_pic_xs.jpg');
+    background-position: -15px 0px;
     border-radius: 100%;
     color: _palette(accent1, fg-bold);
     cursor: default;
     display: inline-block;
     font-size: 2.25em;
-    height: 2.35em;
+    height: 3.35em;
     line-height: 2.35em;
     margin: 0 0 0.75em 0;
     text-align: center;
-    width: 2.35em;
+    width: 3.35em;
 
     &.fa-paper-plane-o:before {
-      left: -0.075em;
+      left: 1.5em;
       position: relative;
     }
   }
@@ -1594,6 +1595,7 @@ input[type='button'],
 
     .logo {
       font-size: 1.5em;
+      background-image: url('../images/LinkedIn_pic_m.jpg');
     }
 
     h1 {
