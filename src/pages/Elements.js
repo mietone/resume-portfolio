@@ -2,10 +2,22 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import { Link } from 'gatsby';
+
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="box container">
+        <section>
+          <ul className="actions special">
+            <li>
+              <Link to="/" className="">
+                Back to Home
+              </Link>
+            </li>
+          </ul>
+          <br></br>
+        </section>
         <header>
           <h2>Miwa Hirano</h2>
         </header>
@@ -148,68 +160,16 @@ const IndexPage = () => (
             </li>
           </ul>
         </section>
-        <section>
-          <hr />
-          <header>
-            <h3>Form</h3>
-          </header>
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobilep">
-                <label htmlFor="name">Name</label>
-                <input
-                  className="text"
-                  type="text"
-                  name="name"
-                  id="name"
-                  defaultValue=""
-                  placeholder="John Doe"
-                />
-              </div>
-              <div className="col-6 col-12-mobilep">
-                <label htmlFor="email">Email</label>
-                <input
-                  className="text"
-                  type="text"
-                  name="email"
-                  id="email"
-                  defaultValue=""
-                  placeholder="johndoe@domain.com"
-                />
-              </div>
-              <div className="col-12">
-                <label htmlFor="subject">Subject</label>
-                <input
-                  className="text"
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  defaultValue=""
-                  placeholder="Enter your subject"
-                />
-              </div>
-              <div className="col-12">
-                <label htmlFor="subject">Message</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Enter your message"
-                  rows="6"
-                ></textarea>
-              </div>
-              <div className="col-12">
-                <ul className="actions special">
-                  <li>
-                    <input type="submit" value="Send" />
-                  </li>
-                  <li>
-                    <input type="reset" value="Reset" className="alt" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </form>
-        </section>
+        <footer className="major container medium">
+        
+          <ul className="actions special">
+            <li>
+              <Link to="/" className="">
+                Back to Home
+              </Link>
+            </li>
+          </ul>
+        </footer>
       </div>
     </div>
   </Layout>

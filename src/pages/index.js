@@ -6,9 +6,10 @@ import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/FosterApp_react600.gif';
+import pic2 from '../assets/images/FosterApp_Rails_600.gif';
+import pic3 from '../assets/images/MusicMagazineLog600.gif';
+import pic4 from '../assets/images/coffeeRoaster.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -26,8 +27,8 @@ const IndexPage = () => (
 
       <div className="box alt container">
         <section className="feature left">
-          <a href="https://github.com/mietone/fosterapp-frontend"  target="_blank" rel="noopener noreferrer" className="image icon fa-signal">
-            <img src={pic1} alt="" />
+          <a href="https://github.com/mietone/fosterapp-frontend"  target="_blank" rel="noopener noreferrer" className="image icon">
+            <img src={pic1} width={300} alt="" />
           </a>
           <div className="content">
             <h3>Foster App (React / Redux)</h3>
@@ -37,8 +38,8 @@ const IndexPage = () => (
           </div>
         </section>
         <section className="feature right">
-          <a href="https://github.com/mietone/FosterApp" target="_blank" rel="noopener noreferrer" className="image icon fa-code">
-            <img src={pic2} alt="" />
+          <a href="https://github.com/mietone/FosterApp" target="_blank" rel="noopener noreferrer" className="image icon">
+            <img src={pic2} width={300} alt="" />
           </a>
           <div className="content">
             <h3>Foster App (Ruby on Rails)</h3>
@@ -48,8 +49,8 @@ const IndexPage = () => (
           </div>
         </section>
         <section className="feature left">
-          <a href="https://github.com/mietone/music-magazine-log" target="_blank" rel="noopener noreferrer" className="image icon fa-mobile">
-            <img src={pic3} alt="" />
+          <a href="https://github.com/mietone/music-magazine-log" target="_blank" rel="noopener noreferrer" className="image icon">
+            <img src={pic3} width={300} alt="" />
           </a>
           <div className="content">
             <h3>music-magazine-log</h3>
@@ -59,8 +60,8 @@ const IndexPage = () => (
           </div>
         </section>
         <section className="feature right">
-          <a href="https://github.com/mietone/FosterApp" target="_blank" rel="noopener noreferrer" className="image icon fa-code">
-            <img src={pic2} alt="" />
+          <a href="https://github.com/mietone/coffee-roasters-cli-app" target="_blank" rel="noopener noreferrer" className="image icon">
+            <img src={pic4} alt="" />
           </a>
           <div className="content">
             <h3>coffee-roasters</h3>
@@ -72,10 +73,8 @@ const IndexPage = () => (
       </div>
 
       <footer className="major container medium">
-        <h3>Go to my resume</h3>
-        <p>
-          Click above to load my resume. Click below to download my pdf resume.
-        </p>
+        <h3>Check out my resume</h3>
+      
         <ul className="actions special">
           <li>
             <Link to="/Elements" className="button">

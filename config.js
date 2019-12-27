@@ -18,16 +18,6 @@ module.exports = {
       url: 'https://github.com/mietone',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/',
-    },
-    {
       icon: 'fa-envelope-o',
       name: 'Email',
       url: 'mailto:devkoneko@gmail.com',
