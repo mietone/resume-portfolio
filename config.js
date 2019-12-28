@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#ba689f',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-directive/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/resume-portfolio/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Hi! I am Miwa',
   subHeading: 'Front-End Developer  ',
   // social
